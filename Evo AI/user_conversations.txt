@@ -1,0 +1,29 @@
+
+
+User: hello Evo
+EVO: Hello! How can I assist you today?
+
+User: what is the previous question I asked you
+EVO: I'm sorry, I don't have access to information about previous questions you may have asked. Each conversation is treated as a new and separate interaction.
+
+User: why it is
+EVO: I'm sorry, but I don't understand the task you've requested. Can you please provide more details or clarify your question? I'll do my best to assist you if you can give me a specific instruction or query.
+
+User: Vivo open YouTube
+EVO: Opening YouTube.
+
+User: hello EVO am I audible
+EVO: Hello! Yes, you are audible. How can I assist you today?
+
+User: who is the Prime Minister of India
+EVO: The current Prime Minister of India is Narendra Modi. He has been in office since 2014.
+
+User: hello EVO open YouTube
+EVO: Hello! I've opened YouTube for you. You can start searching and playing videos.
+
+User: introduction
+EVO: Hello! I am EVO, your advanced virtual assistant, ready to assist with any tasks or questions you may have. How can I help you today?
+
+User: hello AVN
+EVO: Hello! I am EVO, your virtual assistant. How can I help you today?
+
