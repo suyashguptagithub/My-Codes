@@ -488,3 +488,91 @@
 #     else:
 #         print("\n" * 100)  # Clears the screen (basic effect)
 
+# def name_title(f_name, l_name):
+#     f_name = f_name.title()
+#     l_name = l_name.title()
+#     return f_name, l_name
+
+# first, last = name_title("SuYaSh", "GuPtA")
+# print(first, last)
+# def calculator():
+        
+#     cal_value = " "
+#     first_num  = float(input("Pick a number: "))
+#     print("""
+#     +
+#     -
+#     *
+#     /     
+#     """)
+#     oper_pick = str(input("Pick a operation: "))
+#     sec_num = float(input("what is the next number: "))
+
+#     def calculation():
+
+#         if oper_pick == "+":
+#             cal_value = first_num  + sec_num
+#         elif oper_pick == "-":
+#             cal_value = first_num - sec_num
+#         elif oper_pick == "/":
+#             cal_value = first_num / sec_num
+#         elif oper_pick == "*":
+#             cal_value == first_num * sec_num
+#         return cal_value
+
+#     value = calculation()
+#     print(value)
+
+#     user_ask = str(input("Type 'y' to continue, or type n for new calculation: ")).lower()
+#     if user_ask == "n":
+#         calculation()
+
+#     elif user_ask == "y":
+#         first_num = cal_value
+#         calculation()
+
+
+# make a calculator- 
+
+# def Calculation():
+#     def add(n1, n2):
+#         return n1 + n2
+#     def subtract(n1, n2):
+#         return n1 - n2
+#     def divide(n1, n2):
+#         return n1 / n2
+#     def multiply(n1, n2):
+#         return n1 * n2
+    
+#     old_calc = True
+
+#     op = {
+#             "+":add,
+#             "-":subtract,
+#             "*":multiply,
+#             "/":divide
+#     }
+#     first = float(input("Type your number: "))
+#     while old_calc:
+#         for sign in op:
+#             print(sign)
+#         operation = str(input("Type your operation: "))
+#         second = float(input(f"To which num you want to {first} {operation}: "))
+
+
+#         answer = op[operation](first, second)
+#         print(f"{first} {operation} {second} = {answer}")
+
+#         choice = str(input(f"Type 'y' to continue with {answer}, or type 'n' to start a new calculation. ")).lower()
+
+#         if choice == "y":
+#             first = answer
+            
+#         else:
+#             old_calc = False
+#             print("\n" * 100)
+#             Calculation()  
+
+# Calculation()
+
+
