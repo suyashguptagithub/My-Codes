@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loader with Text and Circle Animations</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+  <!-- Loader Animation -->
+  <div class="loader-container">
+    <div class="loader">
+      <svg height="0" width="0" viewBox="0 0 100 100" class="absolute">
+        <defs class="s-xJBuHA073rTt" xmlns="http://www.w3.org/2000/svg">
+          <linearGradient
+            class="s-xJBuHA073rTt"
+            gradientUnits="userSpaceOnUse"
+            y2="2"
+            x2="0"
+            y1="62"
+            x1="0"
+            id="b"
+          >
+            <stop class="s-xJBuHA073rTt" stop-color="#0369a1"></stop>
+            <stop class="s-xJBuHA073rTt" stop-color="#67e8f9" offset="1.5"></stop>
+          </linearGradient>
+          <linearGradient
+            class="s-xJBuHA073rTt"
+            gradientUnits="userSpaceOnUse"
+            y2="0"
+            x2="0"
+            y1="64"
+            x1="0"
+            id="c"
+          >
+            <stop class="s-xJBuHA073rTt" stop-color="#0369a1"></stop>
+            <stop class="s-xJBuHA073rTt" stop-color="#22d3ee" offset="1"></stop>
+          </linearGradient>
+          <linearGradient
+            class="s-xJBuHA073rTt"
+            gradientUnits="userSpaceOnUse"
+            y2="2"
+            x2="0"
+            y1="62"
+            x1="0"
+            id="d"
+          >
+            <stop class="s-xJBuHA073rTt" stop-color="#38bdf8"></stop>
+            <stop class="s-xJBuHA073rTt" stop-color="#075985" offset="1.5"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100" width="200" height="200" class="inline-block">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="8" stroke="url(#b)" d="M 20,20 L 80,20 L 80,27 L 27,27 L 27,50 L 70,50 L 70,57 L 25,57 L 25,80 L 80,80 L 80,87 L 20,87 Z" class="dash" id="E" pathLength="360"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" style="--rotation-duration:0ms; --rotation-direction:normal;" viewBox="0 0 100 100" width="200" height="200" class="inline-block">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="12" stroke="url(#d)" d="M 20,20 L 50,80 L 80,20" class="dash" id="v" pathLength="360"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100" width="200" height="200" class="inline-block">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="11" stroke="url(#c)" d="M 50,15  A 35,35 0 0 1 85,50  A 35,35 0 0 1 50,85  A 35,35 0 0 1 15,50  A 35,35 0 0 1 50,15 Z" class="spin" id="o" pathLength="360"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Text Animation -->
+  <!-- From Uiverse.io by JkHuger -->
+  <div class="container">
+    <div class="content">
+      <div class="content__container">
+        <p class="content__container__text">Hello</p>
+        <ul class="content__container__list">
+          <li class="content__container__list__item">world !</li>
+          <li class="content__container__list__item">E    V    O </li>
+          <li class="content__container__list__item">here </li>
+          <li class="content__container__list__item">ToHelp</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="wrapper">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+
+
+  <div class="loader"></div>
+</div>
+</body>
+</html>
